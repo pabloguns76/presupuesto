@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ComponentsgastosComponent } from './componentsgastos/componentsgastos.component';
+import { GastosComponent } from './components/gastos/gastos.component';
+import { IngresarPresupuestoComponent } from './components/ingresar-presupuesto/ingresar-presupuesto.component';
+import { IngresarGastosComponent } from './components/gastos/ingresar-gastos/ingresar-gastos.component';
+import { ListarGastosComponent } from './components/gastos/listar-gastos/listar-gastos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComponentsgastosComponent,
+    GastosComponent,
+    IngresarPresupuestoComponent,
+    IngresarGastosComponent,
+    ListarGastosComponent
   ],
   imports: [
     BrowserModule,
